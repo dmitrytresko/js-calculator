@@ -67,11 +67,14 @@ class Calculator {
     }
 
     changeSign() {
-
+        let curOperand = parseFloat(this.operand);
+        let negativeOperand = -curOperand;
+        this.operand = negativeOperand;
     }
 
     percentage() {
-
+        let percentValue = this.operand * 0.01;
+        this.operand = percentValue;
     }
 
     updateScreen() {
