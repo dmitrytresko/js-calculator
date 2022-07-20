@@ -1,3 +1,3 @@
 # js-calculator
 
-https://dmitry-tresko.github.io/js-calculator/
+https://dmitrytresko.github.io/js-calculator/
